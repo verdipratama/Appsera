@@ -3,7 +3,7 @@ This repository contains code for Serang Raya University course: Pemrograman Mob
 
 It will be updated as the class progresses!!!!
 
-# You can find me on
+# You can find me on :)
 - [Web](http:www.verside.com)
 - [Instagram](https://www.instagram.com/verdipratama)
 - [Linkedin](https://id.linkedin.com/in/verdipratama)
