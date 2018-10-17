@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.verside.appsera"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.verside.appsera.Activity_Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.verside.appsera.CardActivity" />
+        <activity android:name="com.verside.appsera.LatihanActivity" />
+        <activity android:name="com.verside.appsera.UtasActivity" />
+        <activity android:name="com.verside.appsera.PenjumlahanActivity" />
+        <activity android:name="com.verside.appsera.SegitigaActivity" />
+        <activity android:name="com.verside.appsera.PersegiActivity" />
+        <activity android:name="com.verside.appsera.LingkaranActivity" />
+        <activity android:name="com.verside.appsera.BalokActivity" />
+        <activity android:name="com.verside.appsera.KonversiActivity" />
+        <activity android:name="com.verside.appsera.UtsActivity" />
+        <activity android:name="com.verside.appsera.UasActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
